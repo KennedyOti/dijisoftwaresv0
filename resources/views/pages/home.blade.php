@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-
     <!-- Abvout Start -->
     <div class="container-fluid about py-5">
         <div class="container py-5">
@@ -9,18 +8,20 @@
                 <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                     <div>
                         <h4 class="main-color">About Us</h4>
-                        <h1 class="display-5 mb-4">Meet our company unless miss the opportunity</h1>
-                        <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit
-                            temporibus repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi
-                            reiciendis.
+                        <h1 class="display-5 mb-4">Welcome to Dijisoftwares</h1>
+                        <p class="mb-4">At Dijisoftwares, we empower businesses with innovative software solutions tailored
+                            to meet your unique needs. As a trusted leader in software development, training, and cyber cafe
+                            services, we combine cutting-edge technology with a deep understanding of your industry to
+                            deliver exceptional results.
                         </p>
                         <div class="row g-4">
                             <div class="col-md-6 col-lg-6 col-xl-6">
                                 <div class="d-flex">
                                     <div><i class="fas fa-lightbulb fa-3x main-color"></i></div>
                                     <div class="ms-4">
-                                        <h4>Business Consuluting</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        <h4>IT Consuluting</h4>
+                                        <p>We off Information technology counsaltancy services for businesses that want to
+                                            leverage the use of IT in their businesses</p>
                                     </div>
                                 </div>
                             </div>
@@ -28,8 +29,10 @@
                                 <div class="d-flex">
                                     <div><i class="bi bi-bookmark-heart-fill fa-3x main-color"></i></div>
                                     <div class="ms-4">
-                                        <h4>Year Of Expertise</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        <h4>Our Goal</h4>
+                                        <p>Promote research and development in the field of softawre engineering so as to
+                                            build reliable software products that solves business problems in the modern day
+                                            tech space.</p>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +45,7 @@
                                     <i class="fas fa-phone-alt fa-2x main-color me-4"></i>
                                     <div>
                                         <h4>Call Us</h4>
-                                        <p class="mb-0 fs-5" style="letter-spacing: 1px;">+01234567890</p>
+                                        <p class="mb-0 fs-5" style="letter-spacing: 1px;">+254793543659</p>
                                     </div>
                                 </div>
                             </div>
@@ -77,9 +80,10 @@
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="main-color">Our Services</h4>
                 <h1 class="display-5 mb-4">We Services provided best offer</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci
-                    facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa
-                    deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                <p class="mb-0">At Dijisoftwares, we provide top-notch services designed to meet your digital needs.
+                    Explore our offerings below and take advantage of our competitive pricing.
+
+
                 </p>
             </div>
             <div class="row g-4">
@@ -90,9 +94,9 @@
                                 alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4 main-color"> Strategy Consulting</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                                sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                            <a href="#" class="h4 d-inline-block mb-4 main-color"> Web Development</a>
+                            <p class="mb-4">We specialize in crafting responsive and user-friendly websites that elevate
+                                your online presence.
                             </p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -105,9 +109,9 @@
                                 alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4 main-color">Financial Advisory</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                                sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                            <a href="#" class="h4 d-inline-block mb-4 main-color">Graphic Design</a>
+                            <p class="mb-4">Transform your brand's identity with our creative graphic design services.
+
                             </p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -120,9 +124,8 @@
                                 alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4 main-color">Managements</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                                sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                            <a href="#" class="h4 d-inline-block mb-4 main-color">UI/UX Design</a>
+                            <p class="mb-4">Enhance your digital products with intuitive and engaging user interfaces.
                             </p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -135,9 +138,9 @@
                                 alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4 main-color">Supply Optimization</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                                sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                            <a href="#" class="h4 d-inline-block mb-4 main-color">IT Proffesinal Counsaltant</a>
+                            <p class="mb-4">Our IT professional consulting services offer expert advice to help you
+                                achieve your business goals
                             </p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -150,9 +153,9 @@
                                 alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4 main-color">Hr Consulting</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                                sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                            <a href="#" class="h4 d-inline-block mb-4 main-color">Computer Diagnosis </a>
+                            <p class="mb-4">We diagnose your pc for hardware and software issues to improve its
+                                performace.
                             </p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
@@ -165,9 +168,9 @@
                                 alt="Image">
                         </div>
                         <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4 main-color">Marketing Consulting</a>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-                                sint? Excepturi facilis neque nesciunt similique officiis veritatis,
+                            <a href="#" class="h4 d-inline-block mb-4 main-color">Cyber Cafe Services</a>
+                            <p class="mb-4">Access high-speed internet, printing, and other essential digital services at
+                                our cyber cafe.
                             </p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
