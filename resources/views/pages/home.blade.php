@@ -9,10 +9,22 @@
                     <div>
                         <h4 class="main-color">About Us</h4>
                         <h1 class="display-5 mb-4">Welcome to Dijisoftwares</h1>
-                        <p class="mb-4">At Dijisoftwares, we empower businesses with innovative software solutions tailored
-                            to meet your unique needs. As a trusted leader in software development, training, and cyber cafe
-                            services, we combine cutting-edge technology with a deep understanding of your industry to
-                            deliver exceptional results.
+                        <p class="mb-4">DijiSoftwares is a solution-oriented digital services provider located near Egerton
+                            University Gate in Njoro, Kenya. Our diverse range of services includes Software Services, Cyber
+                            Services, Website Development, Software Development, Graphic Design, System/Software Training,
+                            Research Project Assistance, Typesetting, Printing & Scanning Services, and Digital Skills
+                            Training.
+
+                            We also offer specialized Technical Services like Computer & Laptop Diagnosis, Software
+                            Installation & Updates, and IT Consultancy. For those looking to enhance their tech knowledge,
+                            we provide Programming/Coding Lessons, Graphic Design Lessons, and Computer Literacy
+                            Training—both in-person and online.
+
+                            At DijiSoftwares, we are dedicated to delivering high-quality solutions tailored to meet the
+                            needs of our clients. Whether you're looking for professional IT services or educational
+                            training, our experienced team is here to help you succeed. Visit us online at
+                            www.DijiSoftwares.com or contact us at softwares@gmail.com or +254793543659 for more
+                            information.
                         </p>
                         <div class="row g-4">
                             <div class="col-md-6 col-lg-6 col-xl-6">
@@ -54,18 +66,18 @@
                 </div>
                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded position-relative overflow-hidden">
-                        <img src="{{ asset('assets/img/about-2.png') }}" class="img-fluid rounded w-100" alt="">
+                        <img src="{{ asset('assets/img/about01.jpg') }}" class="img-fluid rounded w-100" alt="">
 
                         <div class="" style="position: absolute; top: -15px; right: -15px;">
-                            <img src="{{ asset('assets/img/about-3.png') }}" class="img-fluid"
+                            <img src="{{ asset('assets/img/about01.jpg') }}" class="img-fluid"
                                 style="width: 150px; height: 150px; opacity: 0.7;" alt="">
                         </div>
                         <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
-                            <img src="{{ asset('assets/img/about-4.png') }}" class="img-fluid"
+                            <img src="{{ asset('assets/img/about01.jpg') }}" class="img-fluid"
                                 style="width: 100px; height: 150px; opacity: 0.9;" alt="">
                         </div>
                         <div class="rounded-bottom">
-                            <img src="{{ asset('assets/img/about-5.jpg') }}" class="img-fluid rounded-bottom w-100"
+                            <img src="{{ asset('assets/img/about0.jpg') }}" class="img-fluid rounded-bottom w-100"
                                 alt="">
                         </div>
                     </div>
@@ -79,7 +91,7 @@
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="main-color">Our Services</h4>
-                <h1 class="display-5 mb-4">We Services provided best offer</h1>
+                <h1 class="display-5 mb-4">We Provide The Best Software Solutions</h1>
                 <p class="mb-0">At Dijisoftwares, we provide top-notch services designed to meet your digital needs.
                     Explore our offerings below and take advantage of our competitive pricing.
 

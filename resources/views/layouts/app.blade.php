@@ -154,8 +154,7 @@
                                                         href="#"><i class="fas fa-play-circle me-2"></i> Watch
                                                         Video</a>
                                                     <a class="btn main-bg rounded-pill py-3 px-4 px-md-5 ms-2"
-                                                        href="#">Learn
-                                                        More</a>
+                                                        href="#">Apply Now</a>
                                                 </div>
                                                 <div
                                                     class="d-flex align-items-center justify-content-center justify-content-md-end">
