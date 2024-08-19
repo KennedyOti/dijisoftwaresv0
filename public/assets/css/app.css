@@ -938,3 +938,21 @@ a {
     background: var(--dark);
 }
 /*** copyright end ***/
+
+.pricing-section .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-section .btn-hover {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pricing-section .btn-hover:hover {
+    background-color: #28a745;
+    color: #fff;
+}

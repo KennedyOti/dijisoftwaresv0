@@ -275,8 +275,8 @@
                                         class="bg-dark d-flex rounded align-items-center py-2 px-3 ms-2">
                                         <i class="fas fa-play main-color"></i>
                                         <div class="ms-3">
-                                            <small class="text-white">Get it on</small>
-                                            <h6 class="text-white">Google Play</h6>
+                                            <small class="text-white">Get</small>
+                                            <h6 class="text-white">In Touch</h6>
                                         </div>
                                     </a>
                                 </div>
@@ -286,10 +286,10 @@
                             <div class="footer-item">
                                 <h4 class="text-white mb-4">Quick Links</h4>
                                 <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                                <a href="#"><i class="fas fa-angle-right me-2"></i> Feature</a>
-                                <a href="#"><i class="fas fa-angle-right me-2"></i> Attractions</a>
-                                <a href="#"><i class="fas fa-angle-right me-2"></i> Tickets</a>
-                                <a href="#"><i class="fas fa-angle-right me-2"></i> Blog</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"></i> Blogs</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"></i> Training</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"></i> Tech Support</a>
                                 <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                             </div>
                         </div>
@@ -321,7 +321,7 @@
                                 </div>
                                 <div class="d-flex align-items-center mb-4">
                                     <i class="fab fa-firefox-browser main-color me-3"></i>
-                                    <p class="text-white mb-0">Yoursite@ex.com</p>
+                                    <p class="text-white mb-0">dijisoftwares.com</p>
                                 </div>
                                 <div class="d-flex">
                                     <a class="btn main-bg btn-sm-square rounded-circle me-3" href="#"><i
@@ -346,7 +346,7 @@
                     <div class="row g-4 align-items-center">
                         <div class="col-md-6 text-center text-md-start mb-md-0">
                             <span class="text-body"><a href="#" class="border-bottom text-white"><i
-                                        class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right
+                                        class="fas fa-copyright text-light me-2"></i>Dijisoftwares</a>, All right
                                 reserved.</span>
                         </div>
                         <div class="col-md-6 text-center text-md-end text-body">
@@ -354,7 +354,7 @@
                             <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                             <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
                             Designed By <a class="border-bottom text-white"
-                                href="https://htmlcodex.com">Dijisoftwares</a>
+                                href="https://dijisoftwares.com">Dijisoftwares</a>
                         </div>
                     </div>
                 </div>
