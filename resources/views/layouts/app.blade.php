@@ -259,9 +259,7 @@
                                     <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>Dijisoftwares</h4>
                                     <!-- <img src="img/logo.png" alt="Logo"> -->
                                 </a>
-                                <p class="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum
-                                    dolor
-                                    sit amet, consectetur adipiscing...</p>
+                                <p class="mb-4">Contact Us for quality software services</p>
                                 <div class="d-flex">
                                     <a href="#"
                                         class="main-bg d-flex rounded align-items-center py-2 px-3 me-2">
