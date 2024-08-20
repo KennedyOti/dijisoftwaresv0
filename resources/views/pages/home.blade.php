@@ -407,7 +407,7 @@
                         </div>
                         <div class="team-title">
                             <h4 class="mb-0">Abdul Hassan</h4>
-                            <p class="mb-0">System Developer</p>
+                            <p class="mb-0">Software Developer</p>
                         </div>
                         <div class="team-icon">
                             <a class="btn main-bg btn-sm-square rounded-circle me-3" href=""><i
