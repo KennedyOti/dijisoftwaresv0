@@ -361,7 +361,7 @@
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/team-1.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/team4.png') }}" class="img-fluid" alt="">
                         </div>
                         <div class="team-title">
                             <h4 class="mb-0">Kennedy Otieno</h4>
@@ -382,7 +382,7 @@
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/team-2.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/team1.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="team-title">
                             <h4 class="mb-0">Jakym Mbuya</h4>
@@ -403,7 +403,7 @@
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/team-3.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/team2.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="team-title">
                             <h4 class="mb-0">Abdul Hassan</h4>
@@ -424,7 +424,7 @@
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/team-4.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/team3.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="team-title">
                             <h4 class="mb-0">Benjamin Okumu</h4>
