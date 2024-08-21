@@ -9,10 +9,22 @@
                     <div>
                         <h4 class="main-color">About Us</h4>
                         <h1 class="display-5 mb-4">Welcome to Dijisoftwares</h1>
-                        <p class="mb-4">At Dijisoftwares, we empower businesses with innovative software solutions tailored
-                            to meet your unique needs. As a trusted leader in software development, training, and cyber cafe
-                            services, we combine cutting-edge technology with a deep understanding of your industry to
-                            deliver exceptional results.
+                        <p class="mb-4">DijiSoftwares is a solution-oriented digital services provider located near Egerton
+                            University Gate in Njoro, Kenya. Our diverse range of services includes Software Services, Cyber
+                            Services, Website Development, Software Development, Graphic Design, System/Software Training,
+                            Research Project Assistance, Typesetting, Printing & Scanning Services, and Digital Skills
+                            Training.
+
+                            We also offer specialized Technical Services like Computer & Laptop Diagnosis, Software
+                            Installation & Updates, and IT Consultancy. For those looking to enhance their tech knowledge,
+                            we provide Programming/Coding Lessons, Graphic Design Lessons, and Computer Literacy
+                            Training—both in-person and online.
+
+                            At DijiSoftwares, we are dedicated to delivering high-quality solutions tailored to meet the
+                            needs of our clients. Whether you're looking for professional IT services or educational
+                            training, our experienced team is here to help you succeed. Visit us online at
+                            www.DijiSoftwares.com or contact us at softwares@gmail.com or +254793543659 for more
+                            information.
                         </p>
                         <div class="row g-4">
                             <div class="col-md-6 col-lg-6 col-xl-6">
@@ -54,18 +66,18 @@
                 </div>
                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded position-relative overflow-hidden">
-                        <img src="{{ asset('assets/img/about-2.png') }}" class="img-fluid rounded w-100" alt="">
+                        <img src="{{ asset('assets/img/about01.jpg') }}" class="img-fluid rounded w-100" alt="">
 
                         <div class="" style="position: absolute; top: -15px; right: -15px;">
-                            <img src="{{ asset('assets/img/about-3.png') }}" class="img-fluid"
+                            <img src="{{ asset('assets/img/about01.jpg') }}" class="img-fluid"
                                 style="width: 150px; height: 150px; opacity: 0.7;" alt="">
                         </div>
                         <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
-                            <img src="{{ asset('assets/img/about-4.png') }}" class="img-fluid"
+                            <img src="{{ asset('assets/img/about01.jpg') }}" class="img-fluid"
                                 style="width: 100px; height: 150px; opacity: 0.9;" alt="">
                         </div>
                         <div class="rounded-bottom">
-                            <img src="{{ asset('assets/img/about-5.jpg') }}" class="img-fluid rounded-bottom w-100"
+                            <img src="{{ asset('assets/img/about0.jpg') }}" class="img-fluid rounded-bottom w-100"
                                 alt="">
                         </div>
                     </div>
@@ -74,13 +86,12 @@
         </div>
     </div>
     <!-- About End -->
-
     <!-- Team Start -->
     <div class="container-fluid team pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="main-color">Our Team</h4>
-                <h1 class="display-5 mb-4">Meet Our Software Engineering Team</h1>
+                <h4 class="main-color">Team</h4>
+                <h1 class="display-5 mb-4">Meet Our Proffesional Software Developers</h1>
                 <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci
                     facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa
                     deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
@@ -90,11 +101,11 @@
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/team-1.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/team4.png') }}" class="img-fluid" alt="">
                         </div>
                         <div class="team-title">
-                            <h4 class="mb-0">David James</h4>
-                            <p class="mb-0">Profession</p>
+                            <h4 class="mb-0">Kennedy Otieno</h4>
+                            <p class="mb-0">CEO & Founder </p>
                         </div>
                         <div class="team-icon">
                             <a class="btn main-bg btn-sm-square rounded-circle me-3" href=""><i
@@ -111,11 +122,11 @@
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/team-2.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/team1.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="team-title">
-                            <h4 class="mb-0">David James</h4>
-                            <p class="mb-0">Profession</p>
+                            <h4 class="mb-0">Jakym Mbuya</h4>
+                            <p class="mb-0">Web Developer</p>
                         </div>
                         <div class="team-icon">
                             <a class="btn main-bg btn-sm-square rounded-circle me-3" href=""><i
@@ -132,11 +143,11 @@
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/team-3.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/team2.png') }}" class="img-fluid" alt="">
                         </div>
                         <div class="team-title">
-                            <h4 class="mb-0">David James</h4>
-                            <p class="mb-0">Profession</p>
+                            <h4 class="mb-0">Abdul Hassan</h4>
+                            <p class="mb-0">Software Developer</p>
                         </div>
                         <div class="team-icon">
                             <a class="btn main-bg btn-sm-square rounded-circle me-3" href=""><i
@@ -153,11 +164,11 @@
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/team-4.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/team3.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="team-title">
-                            <h4 class="mb-0">David James</h4>
-                            <p class="mb-0">Profession</p>
+                            <h4 class="mb-0">Benjamin Okumu</h4>
+                            <p class="mb-0">Software Developer and Co-Founder</p>
                         </div>
                         <div class="team-icon">
                             <a class="btn main-bg btn-sm-square rounded-circle me-3" href=""><i
