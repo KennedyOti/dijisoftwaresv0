@@ -23,7 +23,7 @@
                             At DijiSoftwares, we are dedicated to delivering high-quality solutions tailored to meet the
                             needs of our clients. Whether you're looking for professional IT services or educational
                             training, our experienced team is here to help you succeed. Visit us online at
-                            www.DijiSoftwares.com or contact us at softwares@gmail.com or +254793543659 for more
+                            www.DijiSoftwares.com or contact us at info@dijisoftwares.com or +254793543659 for more
                             information.
                         </p>
                         <div class="row g-4">
@@ -205,11 +205,14 @@
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
-                            <h3 class="card-title text-success mb-3">Basic Website</h3>
-                            <h4 class="mb-4">$150</h4>
+                            <h3 class="card-title text-success mb-3">Personal Website</h3>
+                            <h4 class="mb-4">KSH 15000</h4>
                             <ul class="list-unstyled mb-4">
-                                <li>Domain name</li>
-                                <li>Frontend Only</li>
+                                <li>5 Pages Website</li>
+                                <li>Basic SEO</li>
+                                <li>Contact Form</li>
+                                <li>Customized Design</li>
+                                <li>1 Month Support</li>
                             </ul>
                             <a href="#" class="btn btn-success btn-hover rounded-pill py-2 px-4">Get Started</a>
                         </div>
@@ -218,12 +221,14 @@
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
-                            <h3 class="card-title text-success mb-3">E-comerce Website</h3>
-                            <h4 class="mb-4">$400</h4>
+                            <h3 class="card-title text-success mb-3">Business Website</h3>
+                            <h4 class="mb-4">KSH 25000</h4>
                             <ul class="list-unstyled mb-4">
-                                <li>Frontend </li>
-                                <li>Backend</li>
-                                <li>Payment Intergration</li>
+                                <li>10 Pages Website</li>
+                                <li>Advance SEO</li>
+                                <li>Contact Form</li>
+                                <li>Customized Design</li>
+                                <li>2 Month Support</li>
                             </ul>
                             <a href="#" class="btn btn-success btn-hover rounded-pill py-2 px-4">Get Started</a>
                         </div>
@@ -232,12 +237,14 @@
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
-                            <h3 class="card-title text-success mb-3">System Development</h3>
-                            <h4 class="mb-4">$650 </h4>
+                            <h3 class="card-title text-success mb-3">Ecommerce Website</h3>
+                            <h4 class="mb-4">KSH 50000 </h4>
                             <ul class="list-unstyled mb-4">
-                                <li>Frontend</li>
-                                <li>Backend</li>
-                                <li>User Support</li>
+                                <li>10 Pages Website</li>
+                                <li>Advance SEO</li>
+                                <li>Ecoomerce Functionality</li>
+                                <li>E Payment Intergration</li>
+                                <li>2 Month Support</li>
                             </ul>
                             <a href="#" class="btn btn-success btn-hover rounded-pill py-2 px-4">Get Started</a>
                         </div>
@@ -263,7 +270,7 @@
         <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay="0.2s">
             <div class="blog-item p-4">
                 <div class="blog-img mb-4">
-                    <img src="{{ asset('assets/img/service-1.jpg') }}" class="img-fluid w-100 rounded" alt="">
+                    <img src="{{ asset('assets/img/blog.jpg') }}" class="img-fluid w-100 rounded" alt="">
                     <div class="blog-title">
                         <a href="#" class="btn">JavaScript</a>
                     </div>
@@ -273,7 +280,7 @@
                     suscipit error corporis accusamus labore....
                 </p>
                 <div class="d-flex align-items-center">
-                    <img src="{{ asset('assets/img/testimonial-1.jpg') }}" class="img-fluid rounded-circle"
+                    <img src="{{ asset('assets/img/team4.png') }}" class="img-fluid rounded-circle"
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ms-3">
                         <h5>Admin</h5>
@@ -283,7 +290,7 @@
             </div>
             <div class="blog-item p-4">
                 <div class="blog-img mb-4">
-                    <img src="{{ asset('assets/img/service-2.jpg') }}" class="img-fluid w-100 rounded" alt="">
+                    <img src="{{ asset('assets/img/blog.jpg') }}" class="img-fluid w-100 rounded" alt="">
                     <div class="blog-title">
                         <a href="#" class="btn">Python Updates</a>
                     </div>
@@ -293,7 +300,7 @@
                     suscipit error corporis accusamus labore....
                 </p>
                 <div class="d-flex align-items-center">
-                    <img src="{{ asset('assets/img/testimonial-2.jpg') }}" class="img-fluid rounded-circle"
+                    <img src="{{ asset('assets/img/team1.jpg') }}" class="img-fluid rounded-circle"
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ms-3">
                         <h5>Admin</h5>
@@ -303,7 +310,7 @@
             </div>
             <div class="blog-item p-4">
                 <div class="blog-img mb-4">
-                    <img src="{{ asset('assets/img/service-3.jpg') }}" class="img-fluid w-100 rounded" alt="">
+                    <img src="{{ asset('assets/img/blog.jpg') }}" class="img-fluid w-100 rounded" alt="">
                     <div class="blog-title">
                         <a href="#" class="btn">Artificial Intelligence</a>
                     </div>
@@ -313,7 +320,7 @@
                     suscipit error corporis accusamus labore....
                 </p>
                 <div class="d-flex align-items-center">
-                    <img src="{{ asset('assets/img/testimonial-3.jpg') }}" class="img-fluid rounded-circle"
+                    <img src="{{ asset('assets/img/team3.jpg') }}" class="img-fluid rounded-circle"
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ms-3">
                         <h5>Admin</h5>
@@ -323,7 +330,7 @@
             </div>
             <div class="blog-item p-4">
                 <div class="blog-img mb-4">
-                    <img src="{{ asset('assets/img/service-4.jpg') }}" class="img-fluid w-100 rounded" alt="">
+                    <img src="{{ asset('assets/img/blog.jpg') }}" class="img-fluid w-100 rounded" alt="">
                     <div class="blog-title">
                         <a href="#" class="btn">Serverless Technology</a>
                     </div>
@@ -333,7 +340,7 @@
                     suscipit error corporis accusamus labore....
                 </p>
                 <div class="d-flex align-items-center">
-                    <img src="{{ asset('assets/img/testimonial-1.jpg') }}" class="img-fluid rounded-circle"
+                    <img src="{{ asset('assets/img/team2.png') }}" class="img-fluid rounded-circle"
                         style="width: 60px; height: 60px;" alt="">
                     <div class="ms-3">
                         <h5>Admin</h5>
@@ -452,9 +459,10 @@
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="main-color">Testimonial</h4>
                 <h1 class="display-5 mb-4">Our Clients Riviews</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci
-                    facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa
-                    deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                <p class="mb-0">"Our clients consistently praise us for our commitment to excellence and the high-quality
+                    services we provide. They appreciate our attention to detail, innovative solutions, and the seamless
+                    experience we deliver from start to finish. Here's what some of our clients have to say about their
+                    experience with us:"
                 </p>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">

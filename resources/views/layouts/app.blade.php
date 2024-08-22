@@ -4,6 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="DijiSoftwares: Your trusted digital services provider near Egerton University, Njoro. We specialize in Software & Cyber Services, Website & Software Development, Graphic Design, IT Training, and more. Contact us for expert IT solutions and educational training in Kenya.">
+    <meta name="keywords"
+        content="DijiSoftwares, digital services, software services, cyber services, website development, software development, graphic design, IT training, computer literacy, programming lessons, Egerton University, Njoro, Kenya, IT consultancy, laptop diagnosis, software installation, digital skills training, research assistance, typesetting, printing services">
+
+    <meta name="author" content="Kennedy Otieno, Software Engineer">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts -->
@@ -157,17 +163,21 @@
                                                         href="#">Apply Now</a>
                                                 </div>
                                                 <div
-                                                    class="d-flex align-items-center justify-content-center justify-content-md-end">
+                                                    class="social-icons d-flex align-items-center justify-content-center justify-content-md-end">
                                                     <h2 class="text-white me-2">Follow Us:</h2>
                                                     <div class="d-flex justify-content-end ms-2">
                                                         <a class="btn btn-md-square btn-light rounded-circle me-2"
-                                                            href=""><i class="fab fa-facebook-f"></i></a>
+                                                            href="">
+                                                            <i class="fab fa-facebook-f"></i></a>
                                                         <a class="btn btn-md-square btn-light rounded-circle mx-2"
-                                                            href=""><i class="fab fa-twitter"></i></a>
+                                                            href="">
+                                                            <i class="fab fa-twitter"></i></a>
                                                         <a class="btn btn-md-square btn-light rounded-circle mx-2"
-                                                            href=""><i class="fab fa-instagram"></i></a>
+                                                            href="">
+                                                            <i class="fab fa-instagram"></i></a>
                                                         <a class="btn btn-md-square btn-light rounded-circle ms-2"
-                                                            href=""><i class="fab fa-linkedin-in"></i></a>
+                                                            href="">
+                                                            <i class="fab fa-linkedin-in"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
