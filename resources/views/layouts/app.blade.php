@@ -10,6 +10,7 @@
         content="DijiSoftwares, digital services, software services, cyber services, website development, software development, graphic design, IT training, computer literacy, programming lessons, Egerton University, Njoro, Kenya, IT consultancy, laptop diagnosis, software installation, digital skills training, research assistance, typesetting, printing services">
 
     <meta name="author" content="Kennedy Otieno, Software Engineer">
+    <meta name="google-site-verification" content="24iFixU5Sy0m3gSLaQPtbLVjkn_w6eqXtxH64aJXp3o" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
     <!-- Fonts -->
