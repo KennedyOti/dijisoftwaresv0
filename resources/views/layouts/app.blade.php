@@ -112,6 +112,8 @@
                             <a href="{{ route('about.index') }}" class="nav-item nav-link">About</a>
                             <a href="{{ route('service.index') }}" class="nav-item nav-link">Services</a>
                             <a href="{{ route('blog.index') }}" class="nav-item nav-link">Blogs</a>
+                            <a href="{{ route('login') }}" class="nav-item nav-link">Login</a>
+                            <a href="{{ route('register') }}" class="nav-item nav-link">Signup</a>
                             {{-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link" data-bs-toggle="dropdown">
                                 <span class="dropdown-toggle">Pages</span>
@@ -127,8 +129,8 @@
                         </div> --}}
                             <a href="{{ route('contact.index') }}" class="nav-item nav-link">Contact Us</a>
                         </div>
-                        <a href="#" class="btn main-bg rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Get
-                            Started</a>
+                        <a href="#" class="btn main-bg rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Apply
+                            For Courses</a>
                     </div>
                 </nav>
 
