@@ -463,7 +463,7 @@
                         <i class="fas fa-quote-left fa-2x"></i>
                     </div>
                     <div class="testimonial-img">
-                        <img src="{{ asset('assets/img/testimonial-1.jpg') }}" class="img-fluid" alt="Image">
+                        <img src="{{ asset('assets/img/customer.png') }}" class="img-fluid" alt="Image">
                     </div>
                     <div class="testimonial-text">
                         <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -493,7 +493,7 @@
                         <i class="fas fa-quote-left fa-2x"></i>
                     </div>
                     <div class="testimonial-img">
-                        <img src="{{ asset('assets/img/testimonial-2.jpg') }}" class="img-fluid" alt="Image">
+                        <img src="{{ asset('assets/img/customer.png') }}" class="img-fluid" alt="Image">
                     </div>
                     <div class="testimonial-text">
                         <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -523,7 +523,7 @@
                         <i class="fas fa-quote-left fa-2x"></i>
                     </div>
                     <div class="testimonial-img">
-                        <img src="{{ asset('assets/img/testimonial-3.jpg') }}" class="img-fluid" alt="Image">
+                        <img src="{{ asset('assets/img/customer.png') }}" class="img-fluid" alt="Image">
                     </div>
                     <div class="testimonial-text">
                         <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -553,7 +553,7 @@
                         <i class="fas fa-quote-left fa-2x"></i>
                     </div>
                     <div class="testimonial-img">
-                        <img src="{{ asset('assets/img/testimonial-2.jpg') }}" class="img-fluid" alt="Image">
+                        <img src="{{ asset('assets/img/customer.png') }}" class="img-fluid" alt="Image">
                     </div>
                     <div class="testimonial-text">
                         <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
