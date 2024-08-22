@@ -4,7 +4,7 @@
     <div class="container">
         <header class="text-center my-5">
             <h1 class="display-4">Apply for Our Online Courses</h1>
-            <p class="lead">Fill out the form below to get started with our courses in Python programming, Javascript design, Web Development, Digital Litracy, Use of Artificial Intelligence and
+            <p class="lead">Fill out the form below to get started with our courses in Python programming, Javascript Programming, Web Development, Digital Litracy, Use of Artificial Intelligence and
                 more.</p>
             <p>Each Course Costs Only KSH: 5000</p>
         </header>
