@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="DijiSoftwares: Your trusted digital services provider near Egerton University, Njoro. We specialize in Software & Cyber Services, Website & Software Development, Graphic Design, IT Training, and more. Contact us for expert IT solutions and educational training in Kenya.">
+        content="DijiSoftwares: Your trusted digital services provider in Kenya. We specialize in Software & Cyber Services, Website & Software Development, Graphic Design, IT Training, and more. Contact us for expert IT solutions and educational training in Kenya.">
     <meta name="keywords"
         content="DijiSoftwares, digital services, software services, cyber services, website development, software development, graphic design, IT training, computer literacy, programming lessons, Egerton University, Njoro, Kenya, IT consultancy, laptop diagnosis, software installation, digital skills training, research assistance, typesetting, printing services">
 
