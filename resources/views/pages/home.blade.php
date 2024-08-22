@@ -359,9 +359,11 @@
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="main-color">Team</h4>
                 <h1 class="display-5 mb-4">Meet Our Proffesional Software Developers</h1>
-                <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci
-                    facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa
-                    deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                <p class="mb-0">At DijiSoftwares, we take pride in our team of highly skilled and dedicated software
+                    developers. Our professionals are experts in their fields, committed to delivering cutting-edge
+                    solutions tailored to meet the unique needs of our clients. They work tirelessly to ensure that every
+                    project is executed with precision, creativity, and a deep understanding of the latest technological
+                    advancements.
                 </p>
             </div>
             <div class="row g-4">
