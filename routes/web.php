@@ -15,6 +15,7 @@ Route::get('/service', [ServiceController::class, 'index'])->name('service.index
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
 Route::get('apply', [CourseApplicationController::class, 'index'])->name('apply');
+Route::post('/apply', [CourseApplicationController::class, 'store'])->name('course-applications.store');
 
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');

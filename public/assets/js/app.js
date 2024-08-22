@@ -125,3 +125,16 @@
         return false;
     });
 })(jQuery);
+
+// Application Form Modal Javascript
+
+document.getElementById('applicationForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting immediately
+
+    // Optionally, you can perform AJAX submission here
+
+    alert('Your application has been successfully submitted!');
+
+    // Submit the form after the alert is shown
+    this.submit();
+});

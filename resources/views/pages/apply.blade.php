@@ -6,12 +6,13 @@
             <h1 class="display-4">Apply for Our Online Courses</h1>
             <p class="lead">Fill out the form below to get started with our courses in programming, graphic design, and
                 more.</p>
-                <p>Each Course Costs Only KSH: 5000</p>
+            <p>Each Course Costs Only KSH: 5000</p>
         </header>
 
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <form action="/submit-form" method="post">
+                <form id="applicationForm" action="{{ route('course-applications.store') }}" method="POST" method="post">
+                    @csrf
                     <div class="form-group">
                         <label for="fullName">Full Name</label>
                         <input type="text" class="form-control" id="fullName" name="fullName" required>

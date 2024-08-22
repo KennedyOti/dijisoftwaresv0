@@ -4,62 +4,36 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\CourseApplication; // Make sure to create this model
 
 class CourseApplicationController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display the course application form.
      */
     public function index()
     {
-        return view('pages.apply', ['title'=>'Coure Application']);
+        return view('pages.apply', ['title' => 'Course Application']);
     }
 
     /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
+     * Store a newly created course application in storage.
      */
     public function store(Request $request)
     {
-        //
-    }
+        // Validate the request data
+        $validatedData = $request->validate([
+            'fullName' => 'required|string|max:255',
+            'phoneNumber' => 'required|string|max:15',
+            'location' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'course' => 'required|string',
+        ]);
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
+        // Create a new CourseApplication record
+        CourseApplication::create($validatedData);
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
-    {
-        //
+        // Redirect or return a response
+        return redirect()->back()->with('success', 'Your application has been submitted successfully.');
     }
 }
