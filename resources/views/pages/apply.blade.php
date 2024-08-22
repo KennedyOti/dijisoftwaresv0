@@ -33,11 +33,12 @@
                         <label for="course">Course Being Applied For</label>
                         <select class="form-control" id="course" name="course" required>
                             <option value="">Select a course</option>
-                            <option value="Programming">Digital Literacy</option>
-                            <option value="Graphic Design">Python Programming</option>
-                            <option value="Computer Literacy">Javascript Programming</option>
-                            <option value="Computer Literacy">PHP Programming</option>
-                            <option value="Computer Literacy">Web Development</option>
+                            <option value="Digital Literacy">Digital Literacy</option>
+                            <option value="Python Programming">Python Programming</option>
+                            <option value="Javascript Programming">Javascript Programming</option>
+                            <option value="PHP Programming">PHP Programming</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Ai Technology $ Its Applications">Ai Technology $ Its Applications</option>
                         </select>
                     </div><br>
                     <button type="submit" class="btn btn-primary btn-lg">Apply Now</button>
