@@ -1,18 +1,20 @@
 <?php
 
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\BlogController;
-use App\Http\Controllers\ContactController;
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\CourseApplicationController;
 
 Route::get('/', [HomeController::class, 'index'])->name('/');
 Route::get('/about', [AboutController::class, 'index'])->name('about.index');
 Route::get('/service', [ServiceController::class, 'index'])->name('service.index');
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+Route::get('apply', [CourseApplicationController::class, 'index'])->name('apply');
 
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');

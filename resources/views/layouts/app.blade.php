@@ -129,7 +129,7 @@
                         </div> --}}
                             <a href="{{ route('contact.index') }}" class="nav-item nav-link">Contact Us</a>
                         </div>
-                        <a href="#" class="btn main-bg rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Apply
+                        <a href="{{ route('apply') }}" class="btn main-bg rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Apply
                             For Courses</a>
                     </div>
                 </nav>

@@ -1036,3 +1036,38 @@ a {
         display: none !important;
     }
 }
+
+/*Application Form*/
+
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.form-control {
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
