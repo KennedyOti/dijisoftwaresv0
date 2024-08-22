@@ -1018,8 +1018,20 @@ a {
     }
 }
 
+@media (max-width: 650px) {
+    .social-icons {
+        display: none !important;
+    }
+}
+
 /* Medium devices (tablets, 767px and up) */
 @media (max-width: 767px) {
+    .social-icons {
+        display: none !important;
+    }
+}
+
+@media (max-width: 850px) {
     .social-icons {
         display: none !important;
     }
