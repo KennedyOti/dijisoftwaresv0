@@ -206,7 +206,7 @@
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
                             <h3 class="card-title text-success mb-3">Personal Website</h3>
-                            <h4 class="mb-4">KSH 15000</h4>
+                            <h4 class="mb-4">From KSH 15000</h4>
                             <ul class="list-unstyled mb-4">
                                 <li>5 Pages Website</li>
                                 <li>Basic SEO</li>
@@ -222,7 +222,7 @@
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
                             <h3 class="card-title text-success mb-3">Business Website</h3>
-                            <h4 class="mb-4">KSH 25000</h4>
+                            <h4 class="mb-4">From KSH 30000</h4>
                             <ul class="list-unstyled mb-4">
                                 <li>10 Pages Website</li>
                                 <li>Advance SEO</li>
@@ -238,7 +238,7 @@
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
                             <h3 class="card-title text-success mb-3">Ecommerce Website</h3>
-                            <h4 class="mb-4">KSH 50000 </h4>
+                            <h4 class="mb-4">From: KSH 50000 </h4>
                             <ul class="list-unstyled mb-4">
                                 <li>10 Pages Website</li>
                                 <li>Advance SEO</li>
