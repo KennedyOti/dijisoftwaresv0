@@ -27,21 +27,39 @@
                     <h3 class="card-title">Update Profile</h3>
                 </div>
                 <div class="card-body">
-                    <form action="{{ route('profile.update') }}" method="POST">
+                    <form action="{{ route('profile.update', $user->id) }}" method="POST">
                         @csrf
                         @method('PATCH')
 
-                        <div class="form-group">
+                        <div class="form-group mb-3">
                             <label for="name">Name</label>
                             <input type="text" name="name" class="form-control" value="{{ old('name', $user->name) }}"
                                 required>
                         </div>
 
-                        <div class="form-group">
+                        <div class="form-group mb-3">
                             <label for="email">Email</label>
                             <input type="email" name="email" class="form-control"
                                 value="{{ old('email', $user->email) }}" required>
                         </div>
+
+                        @if (Auth::user()->role == 'admin')
+                            <div class="form-group mb-3">
+                                <label for="role">Role</label>
+                                <select name="role" class="form-control">
+                                    <option value="customer" {{ old('role', $user->role) == 'customer' ? 'selected' : '' }}>
+                                        Customer</option>
+                                    <option value="student" {{ old('role', $user->role) == 'student' ? 'selected' : '' }}>
+                                        Student</option>
+                                    <option value="tutor" {{ old('role', $user->role) == 'tutor' ? 'selected' : '' }}>Tutor
+                                    </option>
+                                    <option value="admin" {{ old('role', $user->role) == 'admin' ? 'selected' : '' }}>Admin
+                                    </option>
+                                </select>
+                            </div>
+                        @else
+                            <input type="hidden" name="role" value="{{ old('role', $user->role) }}">
+                        @endif
 
                         <button type="submit" class="btn btn-primary">Update Profile</button>
                     </form>
@@ -56,7 +74,7 @@
                     <h3 class="card-title">Update Password</h3>
                 </div>
                 <div class="card-body">
-                    <form action="{{ route('password.update') }}" method="POST">
+                    <form action="{{ route('profile.updatePassword', $user->id) }}" method="POST">
                         @csrf
                         @method('PUT')
 

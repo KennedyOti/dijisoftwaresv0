@@ -13,7 +13,9 @@
 @endsection
 
 @section('content')
-    Dahboard content here
+    <div class="alert alert-primary">
+        You are logged in as {{ Auth::user()->role }}
+    </div>
 
     {{-- <div class="row">
         <div class="col-lg-3 col-6">

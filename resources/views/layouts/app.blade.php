@@ -152,7 +152,7 @@
                                                 </h4>
                                                 <h1 class="display-4 text-uppercase text-white mb-4">LEARN WEB
                                                     DEVELOPMENT </h1>
-                                                <p class="mb-5 fs-5">Looking forwad to start building modern day
+                                                <p class="mb-5 fs-5">Looking foward to start building modern day
                                                     websites using the lastet web technologies, consider conatcting us,
                                                     we
                                                     offer a skill based training that will help you get started and

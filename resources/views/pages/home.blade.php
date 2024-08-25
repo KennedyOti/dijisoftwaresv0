@@ -381,7 +381,7 @@
                                     class="fab fa-facebook-f"></i></a>
                             <a class="btn main-bg btn-sm-square rounded-circle me-3" href=""><i
                                     class="fab fa-twitter"></i></a>
-                            <a class="btn main-bg btn-sm-square rounded-circle me-3" href=""><i
+                            <a class="btn main-bg btn-sm-square rounded-circle me-3" href="https://www.linkedin.com/in/kennedy-otieno-0808221b4/"><i
                                     class="fab fa-linkedin-in"></i></a>
                             <a class="btn main-bg btn-sm-square rounded-circle me-0" href=""><i
                                     class="fab fa-instagram"></i></a>

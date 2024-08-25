@@ -54,7 +54,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li>
-                                    <a href="{{ route('profile.edit') }}" class="dropdown-item">
+                                    <a href="{{ route('profile.edit', Auth::user()->id) }}" class="dropdown-item">
                                         <i class="fas fa-user mr-2"></i> My Profile
                                     </a>
                                 </li>
@@ -80,7 +80,7 @@
 
             <a href="index3.html" class="brand-link">
                 {{-- <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> --}}
-                <span class="brand-text font-weight-light">User Account</span>
+                <span class="brand-text font-weight-light">{{ ucwords(Auth::user()->role . ' account') }}</span>
             </a>
 
             <div class="sidebar">
@@ -111,13 +111,64 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/layout/fixed-topnav.html" class="nav-link">
+                                    <a href="" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Fixed Navbar</p>
                                     </a>
                                 </li>
                             </ul>
                         </li>
+
+                        @switch(Auth::user()->role)
+                            @case('customer')
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-copy"></i>
+                                        <p>
+                                            My Orders
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="" class="nav-link">
+                                                <i class="far fa-circle nav-icon"></i>
+                                                <p>All orders</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            @break
+
+                            @case('student')
+                            @break
+
+                            @case('tutor')
+                            @break
+
+                            @case('admin')
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        <i class="nav-icon fas fa-user-tie"></i>
+                                        <p>
+                                            Users & Staff
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="{{ route('user.index') }}" class="nav-link">
+                                                <i class="far fa-circle nav-icon"></i>
+                                                <p>Listing</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            @break
+
+                            @default
+                        @endswitch
+
                     </ul>
                 </nav>
             </div>
