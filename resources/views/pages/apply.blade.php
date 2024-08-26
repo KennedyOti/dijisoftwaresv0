@@ -4,14 +4,33 @@
     <div class="container">
         <header class="text-center my-5">
             <h1 class="display-4">Apply for Our Online Courses</h1>
-            <p class="lead">Fill out the form below to get started with our courses in Python programming, Javascript Programming, Web Development, Digital Litracy, Use of Artificial Intelligence and
-                more.</p>
+            <p class="lead">Fill out the form below to get started with our courses in Python programming, Javascript
+                Programming, Web Development, Digital Literacy, Use of Artificial Intelligence, and more.</p>
             <p>Each Course Costs Only KSH: 5000</p>
         </header>
 
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <form id="applicationForm" action="{{ route('course-applications.store') }}" method="POST" method="post">
+                <!-- Flash Message -->
+                @if (session('success'))
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        {{ session('success') }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                @endif
+
+                <!-- Error Messages -->
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+
+                <form id="applicationForm" action="{{ route('course-applications.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
                         <label for="fullName">Full Name</label>
@@ -46,6 +65,7 @@
             </div>
         </div>
     </div>
+
     <br>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

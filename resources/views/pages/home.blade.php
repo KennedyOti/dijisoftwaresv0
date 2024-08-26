@@ -9,8 +9,8 @@
                     <div>
                         <h4 class="main-color">About Us</h4>
                         <h1 class="display-5 mb-4">Welcome to Dijisoftwares</h1>
-                        <p class="mb-4">DijiSoftwares is a solution-oriented digital services provider located near Egerton
-                            University Gate in Njoro, Kenya. Our diverse range of services includes Software Services, Cyber
+                        <p class="mb-4">DijiSoftwares is a solution-oriented digital services provider located in Kenya.
+                            Our diverse range of services includes Software Services, Cyber
                             Services, Website Development, Software Development, Graphic Design, System/Software Training,
                             Research Project Assistance, Typesetting, Printing & Scanning Services, and Digital Skills
                             Training.
@@ -23,7 +23,7 @@
                             At DijiSoftwares, we are dedicated to delivering high-quality solutions tailored to meet the
                             needs of our clients. Whether you're looking for professional IT services or educational
                             training, our experienced team is here to help you succeed. Visit us online at
-                            www.DijiSoftwares.com or contact us at info@dijisoftwares.com or +254793543659 for more
+                            www.DijiSoftwares.com or contact us at softwares@gmail.com or +254793543659 for more
                             information.
                         </p>
                         <div class="row g-4">
@@ -222,7 +222,7 @@
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
                             <h3 class="card-title text-success mb-3">Business Website</h3>
-                            <h4 class="mb-4">From KSH 30000</h4>
+                            <h4 class="mb-4">From KSH 360000</h4>
                             <ul class="list-unstyled mb-4">
                                 <li>10 Pages Website</li>
                                 <li>Advance SEO</li>
@@ -381,7 +381,8 @@
                                     class="fab fa-facebook-f"></i></a>
                             <a class="btn main-bg btn-sm-square rounded-circle me-3" href=""><i
                                     class="fab fa-twitter"></i></a>
-                            <a class="btn main-bg btn-sm-square rounded-circle me-3" href="https://www.linkedin.com/in/kennedy-otieno-0808221b4/"><i
+                            <a class="btn main-bg btn-sm-square rounded-circle me-3"
+                                href="https://www.linkedin.com/in/kennedy-otieno-0808221b4/"><i
                                     class="fab fa-linkedin-in"></i></a>
                             <a class="btn main-bg btn-sm-square rounded-circle me-0" href=""><i
                                     class="fab fa-instagram"></i></a>

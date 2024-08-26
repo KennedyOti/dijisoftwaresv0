@@ -16,19 +16,4 @@ class CourseApplication extends Model
         'email',
         'course',
     ];
-
-    public function store(Request $request)
-{
-    $validatedData = $request->validate([
-        'fullName' => 'required|string|max:255',
-        'phoneNumber' => 'required|string|max:15',
-        'location' => 'required|string|max:255',
-        'email' => 'required|email|max:255',
-        'course' => 'required|string',
-    ]);
-
-    CourseApplication::create($validatedData);
-
-    return response()->json(['success' => true]);
-}
 }

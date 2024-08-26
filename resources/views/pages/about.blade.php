@@ -9,8 +9,7 @@
                     <div>
                         <h4 class="main-color">About Us</h4>
                         <h1 class="display-5 mb-4">Welcome to Dijisoftwares</h1>
-                        <p class="mb-4">DijiSoftwares is a solution-oriented digital services provider located near Egerton
-                            University Gate in Njoro, Kenya. Our diverse range of services includes Software Services, Cyber
+                        <p class="mb-4">DijiSoftwares is a solution-oriented digital services provider located in Kenya. Our diverse range of services includes Software Services, Cyber
                             Services, Website Development, Software Development, Graphic Design, System/Software Training,
                             Research Project Assistance, Typesetting, Printing & Scanning Services, and Digital Skills
                             Training.

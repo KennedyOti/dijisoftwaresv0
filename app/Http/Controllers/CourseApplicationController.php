@@ -2,14 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\CourseApplication; // Make sure to create this model
 
 class CourseApplicationController extends Controller
 {
     /**
-     * Display the course application form.
+     * Display a listing of the resource.
      */
     public function index()
     {
@@ -17,7 +15,15 @@ class CourseApplicationController extends Controller
     }
 
     /**
-     * Store a newly created course application in storage.
+     * Show the form for creating a new resource.
+     */
+    public function create()
+    {
+        //
+    }
+
+    /**
+     * Store a newly created resource in storage.
      */
     public function store(Request $request)
     {
@@ -27,13 +33,46 @@ class CourseApplicationController extends Controller
             'phoneNumber' => 'required|string|max:15',
             'location' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'course' => 'required|string',
+            'course' => 'required|string|max:255',
         ]);
 
-        // Create a new CourseApplication record
-        CourseApplication::create($validatedData);
+        // Save the validated data to the database
+        \App\Models\CourseApplication::create($validatedData);
 
-        // Redirect or return a response
-        return redirect()->back()->with('success', 'Your application has been submitted successfully.');
+        // Redirect to the route 'apply' with a success message
+        return redirect()->route('apply')->with('success', 'Your application has been submitted successfully.');
+    }
+
+
+    /**
+     * Display the specified resource.
+     */
+    public function show(string $id)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     */
+    public function edit(string $id)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     */
+    public function update(Request $request, string $id)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     */
+    public function destroy(string $id)
+    {
+        //
     }
 }
