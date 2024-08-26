@@ -2,17 +2,20 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\CourseApplication;
 use Illuminate\Http\Request;
+use App\Models\CourseApplication;
+use App\Http\Controllers\Controller;
 
-class CourseApplicationController extends Controller
+class ManageCoursesController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('pages.apply', ['title' => 'Course Application']);
+        $courses = CourseApplication::all();
+
+        return view('portal.coursesapplied.index', compact('courses'));
     }
 
     /**
@@ -28,22 +31,8 @@ class CourseApplicationController extends Controller
      */
     public function store(Request $request)
     {
-        // Validate the request data
-        $validatedData = $request->validate([
-            'fullName' => 'required|string|max:255',
-            'phoneNumber' => 'required|string|max:15',
-            'location' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
-            'course' => 'required|string|max:255',
-        ]);
-
-        // Save the validated data to the database
-        \App\Models\CourseApplication::create($validatedData);
-
-        // Redirect to the route 'apply' with a success message
-        return redirect()->route('apply')->with('success', 'Your application has been submitted successfully.');
+        //
     }
-
 
     /**
      * Display the specified resource.
@@ -51,7 +40,6 @@ class CourseApplicationController extends Controller
     public function show(string $id)
     {
         //
-       
     }
 
     /**

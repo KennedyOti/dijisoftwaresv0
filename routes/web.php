@@ -9,6 +9,7 @@ use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\AdminDashboardController;
 use App\Http\Controllers\CourseApplicationController;
+use App\Http\Controllers\ManageCoursesController;
 use App\Http\Controllers\UsersController;
 
 Route::get('/', [HomeController::class, 'index'])->name('/');
@@ -24,6 +25,7 @@ Route::post('/apply', [CourseApplicationController::class, 'store'])->name('cour
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/users', [UsersController::class, 'index'])->name('user.index');
+    Route::get('/coursesapplied', [ManageCoursesController::class, 'index'])->name('coursesapplied.index');
 
     require_once 'profile.php';
 });
