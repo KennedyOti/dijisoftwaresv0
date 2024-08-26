@@ -222,7 +222,7 @@
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
                             <h3 class="card-title text-success mb-3">Business Website</h3>
-                            <h4 class="mb-4">From KSH 360000</h4>
+                            <h4 class="mb-4">From KSH 35000</h4>
                             <ul class="list-unstyled mb-4">
                                 <li>10 Pages Website</li>
                                 <li>Advance SEO</li>
