@@ -49,8 +49,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <a href="#" class="btn main-bg rounded-pill py-3 px-5 flex-shrink-0">Discover
-                                    Now</a>
+                                <a href="#" class="btn main-bg rounded-pill py-3 px-5 flex-shrink-0">Book Counsaltation</a>
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex">
