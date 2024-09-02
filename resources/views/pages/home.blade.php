@@ -32,7 +32,7 @@
                                     <div><i class="fas fa-lightbulb fa-3x main-color"></i></div>
                                     <div class="ms-4">
                                         <h4>IT Consuluting</h4>
-                                        <p>We off Information technology counsaltancy services for businesses that want to
+                                        <p>We offer Information technology counsaltancy services for businesses that want to
                                             leverage the use of IT in their businesses</p>
                                     </div>
                                 </div>

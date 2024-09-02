@@ -195,7 +195,7 @@
                         </div>
 
                         <div class="header-carousel-item">
-                            <img src="{{ asset('assets/img/coursel14.jpg') }}" class="img-fluid w-100"
+                            <img src="{{ asset('assets/img/coursel14.png') }}" class="img-fluid w-100"
                                 alt="Image">
                             <div class="carousel-caption">
                                 <div class="container">
