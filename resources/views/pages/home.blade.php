@@ -8,7 +8,7 @@
                 <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
                     <div>
                         <h4 class="main-color">About Us</h4>
-                        <h1 class="display-5 mb-4">Welcome to Dijisoftwares</h1>
+                        <h1 class="display-5 mb-4">Welcome to Dijisoftwares Ict Hub</h1>
                         <p class="mb-4">DijiSoftwares Ict Hub is a solution-oriented digital services provider located in Kenya.
                             Our diverse range of services includes Software Services, Cyber
                             Services, Website Development, Software Development, Graphic Design, System/Software Training,
