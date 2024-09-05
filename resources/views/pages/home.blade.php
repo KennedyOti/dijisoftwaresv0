@@ -49,7 +49,8 @@
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <a href="#" class="btn main-bg rounded-pill py-3 px-5 flex-shrink-0">Book Counsaltation</a>
+                                <a href="#" class="btn main-bg rounded-pill py-3 px-5 flex-shrink-0">Book
+                                    Counsaltation</a>
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex">
@@ -195,7 +196,7 @@
     <div class="container-fluid pricing-section pb-5">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="text-success">Our Pricing</h4>
+                <h4 class="text-danger">Our Pricing</h4>
                 <h1 class="display-5 mb-4">Choose Your Plan</h1>
                 <p class="mb-0">Select the best plan that suits your needs. We offer flexible and affordable plans to
                     help you grow your business.</p>
@@ -204,7 +205,7 @@
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
-                            <h3 class="card-title text-success mb-3">Personal Website</h3>
+                            <h3 class="card-title text-danger mb-3">Personal Website</h3>
                             <h4 class="mb-4">From KSH 15000</h4>
                             <ul class="list-unstyled mb-4">
                                 <li>5 Pages Website</li>
@@ -220,7 +221,7 @@
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
-                            <h3 class="card-title text-success mb-3">Business Website</h3>
+                            <h3 class="card-title text-danger mb-3">Business Website</h3>
                             <h4 class="mb-4">From KSH 35000</h4>
                             <ul class="list-unstyled mb-4">
                                 <li>10 Pages Website</li>
@@ -236,7 +237,7 @@
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="card border-0 shadow-sm">
                         <div class="card-body text-center py-5">
-                            <h3 class="card-title text-success mb-3">Ecommerce Website</h3>
+                            <h3 class="card-title text-danger mb-3">Ecommerce Website</h3>
                             <h4 class="mb-4">From: KSH 50000 </h4>
                             <ul class="list-unstyled mb-4">
                                 <li>10 Pages Website</li>
@@ -456,140 +457,6 @@
     </div>
     <!-- Team End -->
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial pb-5">
-        <div class="container pb-5">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                <h4 class="main-color">Testimonial</h4>
-                <h1 class="display-5 mb-4">Our Clients Riviews</h1>
-                <p class="mb-0">"Our clients consistently praise us for our commitment to excellence and the high-quality
-                    services we provide. They appreciate our attention to detail, innovative solutions, and the seamless
-                    experience we deliver from start to finish. Here's what some of our clients have to say about their
-                    experience with us:"
-                </p>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
-                <div class="testimonial-item">
-                    <div class="testimonial-quote-left">
-                        <i class="fas fa-quote-left fa-2x"></i>
-                    </div>
-                    <div class="testimonial-img">
-                        <img src="{{ asset('assets/img/customer.png') }}" class="img-fluid" alt="Image">
-                    </div>
-                    <div class="testimonial-text">
-                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                            blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti
-                            laborum accusamus.
-                        </p>
-                    </div>
-                    <div class="testimonial-title">
-                        <div>
-                            <h4 class="mb-0">Person Name</h4>
-                            <p class="mb-0">Profession</p>
-                        </div>
-                        <div class="d-flex main-color">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-quote-right">
-                        <i class="fas fa-quote-right fa-2x"></i>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-quote-left">
-                        <i class="fas fa-quote-left fa-2x"></i>
-                    </div>
-                    <div class="testimonial-img">
-                        <img src="{{ asset('assets/img/customer.png') }}" class="img-fluid" alt="Image">
-                    </div>
-                    <div class="testimonial-text">
-                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                            blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti
-                            laborum accusamus.
-                        </p>
-                    </div>
-                    <div class="testimonial-title">
-                        <div>
-                            <h4 class="mb-0">Person Name</h4>
-                            <p class="mb-0">Profession</p>
-                        </div>
-                        <div class="d-flex main-color">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-quote-right">
-                        <i class="fas fa-quote-right fa-2x"></i>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-quote-left">
-                        <i class="fas fa-quote-left fa-2x"></i>
-                    </div>
-                    <div class="testimonial-img">
-                        <img src="{{ asset('assets/img/customer.png') }}" class="img-fluid" alt="Image">
-                    </div>
-                    <div class="testimonial-text">
-                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                            blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti
-                            laborum accusamus.
-                        </p>
-                    </div>
-                    <div class="testimonial-title">
-                        <div>
-                            <h4 class="mb-0">Person Name</h4>
-                            <p class="mb-0">Profession</p>
-                        </div>
-                        <div class="d-flex main-color">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-quote-right">
-                        <i class="fas fa-quote-right fa-2x"></i>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-quote-left">
-                        <i class="fas fa-quote-left fa-2x"></i>
-                    </div>
-                    <div class="testimonial-img">
-                        <img src="{{ asset('assets/img/customer.png') }}" class="img-fluid" alt="Image">
-                    </div>
-                    <div class="testimonial-text">
-                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                            blanditiis excepturi quisquam temporibus voluptatum reprehenderit culpa, quasi corrupti
-                            laborum accusamus.
-                        </p>
-                    </div>
-                    <div class="testimonial-title">
-                        <div>
-                            <h4 class="mb-0">Person Name</h4>
-                            <p class="mb-0">Profession</p>
-                        </div>
-                        <div class="d-flex main-color">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="testimonial-quote-right">
-                        <i class="fas fa-quote-right fa-2x"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!-- Testimonial End -->
 @endsection

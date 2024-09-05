@@ -1,9 +1,9 @@
 :root {
-    --primary: #00d084;
+    --primary: #e62128;
     --secondary: #17303b;
     --light: #f8f8f8;
     --dark: #111111;
-    --white: #fefefe;
+    --white: #fefefeec;
 }
 
 .main-color {
@@ -16,6 +16,7 @@
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 /*** Spinner Start ***/
@@ -941,6 +942,9 @@ a {
 .pricing-section .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.pricing-section .btn {
+    background-color: var(--primary);
+}
 
 .pricing-section .card:hover {
     transform: translateY(-10px);
@@ -952,7 +956,6 @@ a {
 }
 
 .pricing-section .btn-hover:hover {
-    background-color: #28a745;
     color: #fff;
 }
 
@@ -1044,7 +1047,7 @@ body {
 }
 
 header {
-    background-color: #28a745;
+    background-color: var(--primary);
     color: white;
     padding: 20px;
     border-radius: 5px;

@@ -12,7 +12,7 @@
     <meta name="author" content="Kennedy Otieno, Software Engineer">
     <meta name="google-site-verification" content="24iFixU5Sy0m3gSLaQPtbLVjkn_w6eqXtxH64aJXp3o" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Dijidoftwares Ict Hub') }}</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
@@ -59,7 +59,7 @@
         @else
             {{-- PAGES CODE --}}
             <!-- Topbar Start -->
-            <div class="container-fluid topbar bg-light px-5 d-none d-lg-block">
+            <div class="container-fluid topbar bg-dark px-5 d-none d-lg-block">
                 <div class="row gx-0 align-items-center">
                     <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                         <div class="d-flex flex-wrap">
@@ -103,7 +103,7 @@
             <div class="container-fluid position-relative p-0">
                 <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                     <a href="" class="navbar-brand p-0">
-                        <img src="{{ asset('assets/img/logo1.png') }}" alt="Logo" style="color: green;">
+                        <img src="{{ asset('assets/img/logo11.jpg') }}" alt="Logo" style="color: green;">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse">
