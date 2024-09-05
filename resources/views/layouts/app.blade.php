@@ -27,7 +27,7 @@
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Template Stylesheet -->
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="100x100" href="{{ asset('assets/img/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="100x100" href="{{ asset('assets/img/logo.ico') }}">
 
 
     @stack('style')
