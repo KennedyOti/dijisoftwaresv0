@@ -151,7 +151,7 @@
                                         <div class="col-xl-7 animated fadeInLeft">
                                             <div class="text-sm-center text-md-end">
                                                 <h4 class="main-color text-uppercase fw-bold mb-4">Welcome To
-                                                    Dijisoftwares
+                                                    Dijisoftwares Ict Hub
                                                 </h4>
                                                 <h1 class="display-4 text-uppercase text-white mb-4">LEARN WEB
                                                     DEVELOPMENT </h1>
@@ -257,7 +257,7 @@
                                         <div class="col-12 animated fadeInUp">
                                             <div class="text-center">
                                                 <h4 class="main-color text-uppercase fw-bold mb-4">Welcome To
-                                                    Dijisoftwares
+                                                    Dijisoftwares Ict Hub
                                                 </h4>
                                                 <h1 class="display-4 text-uppercase text-white mb-4">We Develop Software Solutions For Businesses</h1>
                                                 <p class="mb-5 fs-5">At dijisoftwares we use modern web technologies to
@@ -332,7 +332,7 @@
                 <div class="col-md-6 col-lg-6 col-xl-4">
                     <div class="footer-item">
                         <a href="index.html" class="p-0">
-                            <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>Dijisoftwares</h4>
+                            <h4 class="text-white"><i class="fas fa-search-dollar me-3"></i>Dijisoftwares Ict Hub</h4>
                             <!-- <img src="img/logo.png" alt="Logo"> -->
                         </a>
                         <p class="mb-4">Contact Us for quality software services</p>
@@ -418,14 +418,14 @@
             <div class="row g-4 align-items-center">
                 <div class="col-md-6 text-center text-md-start mb-md-0">
                     <span class="text-body"><a href="#" class="border-bottom text-white"><i
-                                class="fas fa-copyright text-light me-2"></i>Dijisoftwares</a>, All right
+                                class="fas fa-copyright text-light me-2"></i>Dijisoftwares Ict Hub</a>, All right
                         reserved.</span>
                 </div>
                 <div class="col-md-6 text-center text-md-end text-body">
                     <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                     <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                     <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom text-white" href="https://dijisoftwares.com">Dijisoftwares</a>
+                    Designed By <a class="border-bottom text-white" href="https://dijisoftwares.com">Dijisoftwares Ict Hub</a>
                 </div>
             </div>
         </div>

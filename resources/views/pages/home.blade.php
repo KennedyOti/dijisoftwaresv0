@@ -9,7 +9,7 @@
                     <div>
                         <h4 class="main-color">About Us</h4>
                         <h1 class="display-5 mb-4">Welcome to Dijisoftwares</h1>
-                        <p class="mb-4">DijiSoftwares is a solution-oriented digital services provider located in Kenya.
+                        <p class="mb-4">DijiSoftwares Ict Hub is a solution-oriented digital services provider located in Kenya.
                             Our diverse range of services includes Software Services, Cyber
                             Services, Website Development, Software Development, Graphic Design, System/Software Training,
                             Research Project Assistance, Typesetting, Printing & Scanning Services, and Digital Skills
@@ -23,7 +23,7 @@
                             At DijiSoftwares, we are dedicated to delivering high-quality solutions tailored to meet the
                             needs of our clients. Whether you're looking for professional IT services or educational
                             training, our experienced team is here to help you succeed. Visit us online at
-                            www.DijiSoftwares.com or contact us at softwares@gmail.com or +254793543659 for more
+                            www.DijiSoftwares.com or contact us at dijisoftwares@gmail.com or +254793543659 for more
                             information.
                         </p>
                         <div class="row g-4">
@@ -92,7 +92,7 @@
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="main-color">Our Services</h4>
                 <h1 class="display-5 mb-4">We Provide The Best Software Solutions</h1>
-                <p class="mb-0">At Dijisoftwares, we provide top-notch services designed to meet your digital needs.
+                <p class="mb-0">At Dijisoftwares Ict Hub, we provide top-notch services designed to meet your digital needs.
                     Explore our offerings below and take advantage of our competitive pricing.
 
 
