@@ -10,6 +10,10 @@
     color: var(--primary);
 }
 
+.main-light{
+    background-color: var(--light);
+}
+
 .main-bg {
     background-color: var(--primary);
 }
@@ -1080,11 +1084,13 @@ header p {
 }
 
 .btn-primary {
-    background-color: #28a745;
-    border-color: #28a745;
+    background-color: var(--primary);
+    border-color: var(--light);
 }
 
 .btn-primary:hover {
-    background-color: #218838;
-    border-color: #1e7e34;
+    background-color: #070707;
+    border-color: #fff;
+    color: #fff;
+    color: #8b86863c;
 }

@@ -144,7 +144,7 @@
                     <!-- Carousel Start -->
                     <div class="header-carousel owl-carousel">
                         <div class="header-carousel-item">
-                            <img src="{{ asset('assets/img/coursel1.jpg') }}" class="img-fluid w-100"
+                            <img src="{{ asset('assets/img/coursel15.png') }}" class="img-fluid w-100"
                                 alt="Image">
                             <div class="carousel-caption">
                                 <div class="container">
@@ -152,12 +152,14 @@
                                         <div class="col-lg-0 col-xl-5"></div>
                                         <div class="col-xl-7 animated fadeInLeft">
                                             <div class="text-sm-center text-md-end">
+                                                <!---
                                                 <h4 class="main-color text-uppercase fw-bold mb-4">Welcome To
                                                     Dijisoftwares Ict Hub
                                                 </h4>
+                                                --->
                                                 <h1 class="display-4 text-uppercase text-white mb-4">LEARN WEB
                                                     DEVELOPMENT </h1>
-                                                <p class="mb-5 fs-5">Looking foward to start building modern day
+                                                <p class="mb-5 fs-5">Looking forward to start building modern day
                                                     websites using the lastet web technologies, consider conatcting us,
                                                     we
                                                     offer a skill based training that will help you get started and
@@ -165,10 +167,7 @@
                                                 </p>
                                                 <div
                                                     class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
-                                                    <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                                                        href="#"><i class="fas fa-play-circle me-2"></i> Watch
-                                                        Video</a>
-                                                    <a class="btn main-bg rounded-pill py-3 px-4 px-md-5 ms-2"
+                                                    <a class="btn main-light rounded-pill py-3 px-4 px-md-5 ms-2"
                                                         href="{{ route('apply') }}">Apply For Courses</a>
                                                 </div>
                                                 <div
@@ -205,9 +204,11 @@
                                         <div class="col-lg-0 col-xl-5"></div>
                                         <div class="col-xl-7 animated fadeInLeft">
                                             <div class="text-sm-center text-md-end">
+                                                <!---
                                                 <h4 class="main-color text-uppercase fw-bold mb-4">Welcome To
                                                     Dijisoftwares
                                                 </h4>
+                                            -->
                                                 <h1 class="display-4 text-uppercase text-white mb-4">Digital Literacy
                                                     and Career Training Program
                                                 </h1>
@@ -219,10 +220,7 @@
                                                 </p>
                                                 <div
                                                     class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
-                                                    <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                                                        href="#"><i class="fas fa-play-circle me-2"></i> Watch
-                                                        Video</a>
-                                                    <a class="btn main-bg rounded-pill py-3 px-4 px-md-5 ms-2"
+                                                    <a class="btn main-light rounded-pill py-3 px-4 px-md-5 ms-2"
                                                         href="{{ route('apply') }}">Go to Program Website</a>
                                                 </div>
                                                 <div
@@ -258,21 +256,20 @@
                                     <div class="row g-5">
                                         <div class="col-12 animated fadeInUp">
                                             <div class="text-center">
+                                                <!--
                                                 <h4 class="main-color text-uppercase fw-bold mb-4">Welcome To
                                                     Dijisoftwares Ict Hub
                                                 </h4>
+                                            -->
                                                 <h1 class="display-4 text-uppercase text-white mb-4">We Develop
                                                     Software Solutions For Businesses</h1>
-                                                <p class="mb-5 fs-5">At dijisoftwares we use modern web technologies to
+                                                <p class="mb-5 fs-5">At Dijisoftwares we use modern web technologies to
                                                     develop fast and reliable full
                                                     stack web application that run seamlessly and help you achieve your
                                                     business goals.
                                                 </p>
                                                 <div class="d-flex justify-content-center flex-shrink-0 mb-4">
-                                                    <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2"
-                                                        href="#"><i class="fas fa-play-circle me-2"></i> Watch
-                                                        Video</a>
-                                                    <a class="btn main-bg rounded-pill py-3 px-4 px-md-5 ms-2"
+                                                    <a class="btn main-light rounded-pill py-3 px-4 px-md-5 ms-2"
                                                         href="#">Learn
                                                         More</a>
                                                 </div>

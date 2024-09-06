@@ -67,14 +67,14 @@
                 </div>
                 <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
                     <div class="bg-primary rounded position-relative overflow-hidden">
-                        <img src="{{ asset('assets/img/about01.jpg') }}" class="img-fluid rounded w-100" alt="">
+                        <img src="{{ asset('assets/img/coursel15.png') }}" class="img-fluid rounded w-100" alt="">
 
                         <div class="" style="position: absolute; top: -15px; right: -15px;">
-                            <img src="{{ asset('assets/img/about01.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('assets/img/coursel15.png') }}" class="img-fluid"
                                 style="width: 150px; height: 150px; opacity: 0.7;" alt="">
                         </div>
                         <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
-                            <img src="{{ asset('assets/img/about01.jpg') }}" class="img-fluid"
+                            <img src="{{ asset('assets/img/coursel15.png') }}" class="img-fluid"
                                 style="width: 100px; height: 150px; opacity: 0.9;" alt="">
                         </div>
                         <div class="rounded-bottom">
