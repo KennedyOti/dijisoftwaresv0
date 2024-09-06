@@ -4,10 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:site_name" content="Dijisoftwares Ict Hub - Your trusted digital service provider." />
+    <meta property="og:title" content="Home - Dijisoftwares Ict Hub" />
     <meta name="description"
-        content="DijiSoftwares: Your trusted digital services provider in Kenya. We specialize in Software & Cyber Services, Website & Software Development, Graphic Design, IT Training, and more. Contact us for expert IT solutions and educational training in Kenya.">
+        content="DijiSoftwares Ict Hub: Your trusted digital services provider in Kenya. We specialize in Software & Cyber Services, Website & Software Development, Graphic Design, IT Training, and more. Contact us for expert IT solutions and educational training in Kenya.">
     <meta name="keywords"
-        content="DijiSoftwares, digital services, software services, cyber services, website development, software development, graphic design, IT training, computer literacy, programming lessons, Egerton University, Njoro, Kenya, IT consultancy, laptop diagnosis, software installation, digital skills training, research assistance, typesetting, printing services">
+        content="DijiSoftwares, Dijisoftwares Ict Hub, Hub,  digital services, software services, cyber services, website development, software development, graphic design, IT training, computer literacy, programming lessons, Egerton University, Njoro, Kenya, IT consultancy, laptop diagnosis, software installation, digital skills training, research assistance, typesetting, printing services">
 
     <meta name="author" content="Kennedy Otieno, Software Engineer">
     <meta name="google-site-verification" content="24iFixU5Sy0m3gSLaQPtbLVjkn_w6eqXtxH64aJXp3o" />
@@ -259,7 +261,8 @@
                                                 <h4 class="main-color text-uppercase fw-bold mb-4">Welcome To
                                                     Dijisoftwares Ict Hub
                                                 </h4>
-                                                <h1 class="display-4 text-uppercase text-white mb-4">We Develop Software Solutions For Businesses</h1>
+                                                <h1 class="display-4 text-uppercase text-white mb-4">We Develop
+                                                    Software Solutions For Businesses</h1>
                                                 <p class="mb-5 fs-5">At dijisoftwares we use modern web technologies to
                                                     develop fast and reliable full
                                                     stack web application that run seamlessly and help you achieve your
@@ -425,7 +428,8 @@
                     <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                     <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                     <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom text-white" href="https://dijisoftwares.com">Dijisoftwares Ict Hub</a>
+                    Designed By <a class="border-bottom text-white" href="https://dijisoftwares.com">Dijisoftwares Ict
+                        Hub</a>
                 </div>
             </div>
         </div>
