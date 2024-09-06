@@ -9,7 +9,8 @@
                     <div>
                         <h4 class="main-color">About Us</h4>
                         <h1 class="display-5 mb-4">Welcome to Dijisoftwares Ict Hub</h1>
-                        <p class="mb-4">DijiSoftwares Ict Hub is a solution-oriented digital services provider located in Kenya.
+                        <p class="mb-4">DijiSoftwares Ict Hub is a solution-oriented digital services provider located in
+                            Kenya.
                             Our diverse range of services includes Software Services, Cyber
                             Services, Website Development, Software Development, Graphic Design, System/Software Training,
                             Research Project Assistance, Typesetting, Printing & Scanning Services, and Digital Skills
@@ -92,97 +93,66 @@
             <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                 <h4 class="main-color">Our Services</h4>
                 <h1 class="display-5 mb-4">We Provide The Best Software Solutions</h1>
-                <p class="mb-0">At Dijisoftwares Ict Hub, we provide top-notch services designed to meet your digital needs.
-                    Explore our offerings below and take advantage of our competitive pricing.
-
-
-                </p>
+                <p class="mb-0">At Dijisoftwares ICT Hub, we offer cutting-edge services designed to meet the diverse
+                    needs of our clients. Discover more below!</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('assets/img/web1.jpg') }}" class="img-fluid rounded-top w-100"
-                                alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4 main-color"> Web Development</a>
-                            <p class="mb-4">We specialize in craft user-friendly websites that elevate
-                                your online presence.
-                            </p>
+                        <div class="service-content p-4">
+                            <a href="#" class="h4 d-inline-block mb-4 main-color">Web Development</a>
+                            <p class="mb-4">We specialize in creating responsive and scalable websites that cater to your
+                                business needs and ensure a top-notch user experience.</p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('assets/img/designer.jpg') }}" class="img-fluid rounded-top w-100"
-                                alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
+                        <div class="service-content p-4">
                             <a href="#" class="h4 d-inline-block mb-4 main-color">Graphic Design</a>
-                            <p class="mb-4">Transform your brand's identity with our creative graphic design services.
-
-                            </p>
+                            <p class="mb-4">Enhance your brand with our professional graphic design services, providing
+                                stunning visuals that captivate your audience.</p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('assets/img/designer.jpg') }}" class="img-fluid rounded-top w-100"
-                                alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
+                        <div class="service-content p-4">
                             <a href="#" class="h4 d-inline-block mb-4 main-color">UI/UX Design</a>
-                            <p class="mb-4">Enhance your digital products with intuitive and engaging user interfaces.
-                            </p>
+                            <p class="mb-4">We provide user-centric UI/UX designs that make your applications and websites
+                                easy to navigate while ensuring optimal user satisfaction.</p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('assets/img/designer.jpg') }}" class="img-fluid rounded-top w-100"
-                                alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4 main-color">IT Proffesinal Counsaltant</a>
-                            <p class="mb-4">We provide the best IT counsaltaing services.
-                            </p>
+                        <div class="service-content p-4">
+                            <a href="#" class="h4 d-inline-block mb-4 main-color">IT Professional Consultant</a>
+                            <p class="mb-4">Our consulting services help your business to stay up-to-date with the latest
+                                technology and implement solutions that drive growth.</p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('assets/img/service5.jpg') }}" class="img-fluid rounded-top w-100"
-                                alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
-                            <a href="#" class="h4 d-inline-block mb-4 main-color">Computer Diagnosis </a>
-                            <p class="mb-4">We diagnose your pc for hardware and software issues to improve its
-                                performace.
-                            </p>
+                        <div class="service-content p-4">
+                            <a href="#" class="h4 d-inline-block mb-4 main-color">Computer Diagnosis</a>
+                            <p class="mb-4">We offer comprehensive computer diagnostics to identify and fix performance
+                                issues, helping you maintain efficiency.</p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-item">
-                        <div class="service-img">
-                            <img src="{{ asset('assets/img/cons.jpg') }}" class="img-fluid rounded-top w-100"
-                                alt="Image">
-                        </div>
-                        <div class="rounded-bottom p-4">
+                        <div class="service-content p-4">
                             <a href="#" class="h4 d-inline-block mb-4 main-color">Cyber Cafe Services</a>
-                            <p class="mb-4">Access high-speed internet, printing, and other essential cyber cafe
-                                services.
-                            </p>
+                            <p class="mb-4">Access high-speed internet, printing, scanning, and other essential services
+                                at our state-of-the-art cyber cafe.</p>
                             <a class="btn main-bg rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
@@ -191,6 +161,7 @@
         </div>
     </div>
     <!-- Services End -->
+
 
     <!-- Pricing Section Start -->
     <div class="container-fluid pricing-section pb-5">

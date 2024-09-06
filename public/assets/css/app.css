@@ -437,29 +437,43 @@ a {
 
 /*** Service Start ***/
 .service .service-item {
-    background: var(--light);
-    border-radius: 10px;
-    transition: 0.5s;
+    background-color: #333; /* Dark background */
+    color: #fff;
+    border-radius: 1px;
+    transition: transform 2s ease, background-color 2s ease, color 2s ease;
+    padding: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
 }
 
 .service .service-item:hover {
-    box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
+    transform: rotateY(360deg); /* Full 360-degree flip on hover */
+    background-color: #ff0000; /* Change to red background on flip */
+    color: #fff; /* Text remains white on hover */
 }
 
-.service .service-item .service-img {
-    position: relative;
-    overflow: hidden;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    transition: 0.5s;
+.service .service-content {
+    font-size: 16px;
+    line-height: 1.6;
+    transition: color 0.8s ease;
+    backface-visibility: hidden; /* Ensure text is visible on flip */
 }
 
-.service .service-item .service-img img {
-    transition: 0.5s;
+.service .service-item:hover .service-content {
+    color: #fff; /* Keep text white on hover */
 }
 
-.service .service-item:hover .service-img img {
-    transform: scale(1.2);
+.service .btn {
+    background-color: transparent;
+    color: #fff; /* Make the text white */
+    border: 2px solid #fff; /* Add a white border for better contrast */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service .btn:hover {
+    background-color: #fff; /* White background on hover */
+    color: #333; /* Dark text on hover */
 }
 /*** Service End ***/
 
