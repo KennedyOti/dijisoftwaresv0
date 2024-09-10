@@ -200,7 +200,7 @@
                         </div>
 
                         <div class="header-carousel-item">
-                            <img src="{{ asset('assets/img/coursel14.png') }}" class="img-fluid w-100"
+                            <img src="{{ asset('assets/img/ken1.jpg') }}" class="img-fluid w-100"
                                 alt="Image">
                             <div class="carousel-caption">
                                 <div class="container">
@@ -213,20 +213,22 @@
                                                     Dijisoftwares
                                                 </h4>
                                             -->
-                                                <h1 class="display-4 text-uppercase text-white mb-4">Digital Literacy
-                                                    and Career Training Program
+                                                <h1 class="display-4 text-uppercase text-white mb-4">Meet our CEO
                                                 </h1>
-                                                <p class="mb-5 fs-5">The Digital Literacy and Career Training Program
-                                                    is designed to empower secondary school students with essential
-                                                    digital skills and career guidance. Our goal is to bridge the
-                                                    digital divide and help students make informed decisions about their
-                                                    academic and career paths.
+                                                <p class="mb-5 fs-5">Our CEO is a visionary leader with a passion for
+                                                    innovation and technology. With years of experience in the industry,
+                                                    they have driven our company toward success by fostering a culture
+                                                    of creativity, excellence, and growth. Under their leadership, we
+                                                    continue to push the boundaries of digital transformation,
+                                                    delivering cutting-edge solutions to our clients
                                                 </p>
+                                                <!--
                                                 <div
                                                     class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                                     <a class="btn main-light rounded-pill py-3 px-4 px-md-5 ms-2"
                                                         href="{{ route('apply') }}">Go to Program Website</a>
                                                 </div>
+                                            -->
                                                 <div
                                                     class="social-icons d-flex align-items-center justify-content-center justify-content-md-end">
                                                     <h2 class="text-white me-2">Follow Us:</h2>
@@ -253,7 +255,7 @@
                         </div>
 
                         <div class="header-carousel-item">
-                            <img src="{{ asset('assets/img/coursel2.jpg') }}" class="img-fluid w-100"
+                            <img src="{{ asset('assets/img/coursel20.png') }}" class="img-fluid w-100"
                                 alt="Image">
                             <div class="carousel-caption">
                                 <div class="container">
@@ -265,12 +267,16 @@
                                                     Dijisoftwares Ict Hub
                                                 </h4>
                                             -->
-                                                <h1 class="display-4 text-uppercase text-white mb-4">We Develop
-                                                    Software Solutions For Businesses</h1>
-                                                <p class="mb-5 fs-5">At Dijisoftwares we use modern web technologies to
-                                                    develop fast and reliable full
-                                                    stack web application that run seamlessly and help you achieve your
-                                                    business goals.
+                                            
+                                                <h1 class="display-4 text-uppercase text-white mb-4">Professional Software Development</h1>
+                                                <p class="mb-5 fs-5">
+                                                    We are a team of software developers, designers, and project managers
+                                                    who are passionate about creating innovative software solutions for
+                                                    businesses. Our goal is to help you achieve your business goals by
+                                                    providing you with the tools you need to succeed. Whether you need a
+                                                    custom software solution, a mobile app, or a website, we have the
+                                                    expertise and experience to deliver high-quality products that meet
+                                                    your needs.
                                                 </p>
                                                 <div class="d-flex justify-content-center flex-shrink-0 mb-4">
 

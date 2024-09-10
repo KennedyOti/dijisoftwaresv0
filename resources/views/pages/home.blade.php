@@ -341,7 +341,7 @@
                 <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="team-item">
                         <div class="team-img">
-                            <img src="{{ asset('assets/img/team4.png') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/ceo.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="team-title">
                             <h4 class="mb-0">Kennedy Otieno</h4>
