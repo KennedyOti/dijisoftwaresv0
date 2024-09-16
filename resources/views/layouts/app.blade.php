@@ -15,6 +15,9 @@
     <meta name="google-site-verification" content="24iFixU5Sy0m3gSLaQPtbLVjkn_w6eqXtxH64aJXp3o" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Dijidoftwares Ict Hub') }}</title>
+    <!---Adsense-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6429721231725660"
+        crossorigin="anonymous"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
@@ -200,8 +203,7 @@
                         </div>
 
                         <div class="header-carousel-item">
-                            <img src="{{ asset('assets/img/ken1.jpg') }}" class="img-fluid w-100"
-                                alt="Image">
+                            <img src="{{ asset('assets/img/ken1.jpg') }}" class="img-fluid w-100" alt="Image">
                             <div class="carousel-caption">
                                 <div class="container">
                                     <div class="row gy-0 gx-5">
@@ -267,10 +269,12 @@
                                                     Dijisoftwares Ict Hub
                                                 </h4>
                                             -->
-                                            
-                                                <h1 class="display-4 text-uppercase text-white mb-4">Professional Software Development</h1>
+
+                                                <h1 class="display-4 text-uppercase text-white mb-4">Professional
+                                                    Software Development</h1>
                                                 <p class="mb-5 fs-5">
-                                                    We are a team of software developers, designers, and project managers
+                                                    We are a team of software developers, designers, and project
+                                                    managers
                                                     who are passionate about creating innovative software solutions for
                                                     businesses. Our goal is to help you achieve your business goals by
                                                     providing you with the tools you need to succeed. Whether you need a
