@@ -151,7 +151,7 @@
                     <!-- Carousel Start -->
                     <div class="header-carousel owl-carousel">
                         <div class="header-carousel-item">
-                            <img src="{{ asset('assets/img/coursel15.png') }}" class="img-fluid w-100"
+                            <img src="{{ asset('assets/img/bootcamp3.jpg') }}" class="img-fluid w-100"
                                 alt="Image">
                             <div class="carousel-caption">
                                 <div class="container">
@@ -164,18 +164,17 @@
                                                     Dijisoftwares Ict Hub
                                                 </h4>
                                                 --->
-                                                <h1 class="display-4 text-uppercase text-white mb-4">LEARN WEB
-                                                    DEVELOPMENT </h1>
-                                                <p class="mb-5 fs-5">Looking forward to start building modern day
-                                                    websites using the lastet web technologies, consider conatcting us,
-                                                    we
-                                                    offer a skill based training that will help you get started and
-                                                    build fancy websites in just a few days.
+                                                <h1 class="display-4 text-uppercase text-white mb-4">Python Coding
+                                                    Bootcamp </h1>
+                                                <p class="mb-5 fs-5">Unlock your potential in the tech world with our immersive Bootcamp! Dive into the fundamentals of Python
+                                                    programming through hands-on projects and real-world applications. Whether you're a complete beginner or
+                                                    looking to enhance your skills, this Bootcamp is designed to equip you with the knowledge and confidence
+                                                    to start your coding journey. Join us and transform your ideas into reality!
                                                 </p>
                                                 <div
                                                     class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
                                                     <a class="btn main-light rounded-pill py-3 px-4 px-md-5 ms-2"
-                                                        href="{{ route('apply') }}">Apply For Courses</a>
+                                                        href="{{ route('bootcamp.index') }}">Register Bootcamp</a>
                                                 </div>
                                                 <div
                                                     class="social-icons d-flex align-items-center justify-content-center justify-content-md-end">
