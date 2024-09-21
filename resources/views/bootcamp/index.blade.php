@@ -169,7 +169,7 @@
         /* Responsive Media Queries */
         @media (max-width: 768px) {
             .hero h1 {
-                font-size: 2rem;
+                font-size: 1.8rem;
             }
 
             .hero p {
