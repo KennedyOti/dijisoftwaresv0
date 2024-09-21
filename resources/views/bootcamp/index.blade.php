@@ -4,6 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Apply for our comprehensive Bootcamp program to enhance your skills and advance your career. Join now to gain practical experience and industry insights.">
+    <meta name="keywords"
+        content="Bootcamp, Programming Bootcamp, Software Training, Career Development, Digital Skills, Apply for Bootcamp, Bootcamp Applications">
+    <meta name="author" content="DijiSoftwares">
+    <link rel="canonical" href="https://www.dijisoftwares.com/bootcamp/applications">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Bootcamp Applications | DijiSoftwares">
+    <meta property="og:description"
+        content="Join our Bootcamp program to boost your career. Apply now and start your journey towards success!">
+    <meta property="og:url" content="https://www.dijisoftwares.com/bootcamp/applications">
+    <meta property="og:image" content="https://www.dijisoftwares.com/assets/img/bootcamp.jpg">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" sizes="100x100" href="{{ asset('assets/img/logo.ico') }}">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bootcamp Applications | DijiSoftwares">
+    <meta name="twitter:description"
+        content="Apply for our Bootcamp to gain essential skills for your career advancement.">
+    <meta name="twitter:image" content="https://www.dijisoftwares.com/assets/img/bootcamp.jpg">
     <title>Python Bootcamp - DijiSoftwares</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -40,7 +62,7 @@
         }
 
         /* Give the hero text a red blend for better visibility */
-        
+
 
         .hero p {
             font-size: 1.1rem;
@@ -189,7 +211,10 @@
         <div class="hero-overlay"></div>
         <div class="hero-content container">
             <h1 style="color: #ff3333">Introduction to Programming Using Python</h1>
-            <p>Learn the fundamentals of Python programming in this hands-on Bootcamp.</p>
+            <p>Unlock your potential in the tech world with our immersive Bootcamp! Dive into the fundamentals of Python
+                programming through hands-on projects and real-world applications. Whether you're a complete beginner or
+                looking to enhance your skills, this Bootcamp is designed to equip you with the knowledge and confidence
+                to start your coding journey. Join us and transform your ideas into reality!</p>
             <a href="#apply" class="btn btn-light btn-lg mt-4">Register Now</a>
             <div id="countdown" class="countdown mt-4"></div>
         </div>
