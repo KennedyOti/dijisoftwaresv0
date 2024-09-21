@@ -169,7 +169,7 @@
         /* Responsive Media Queries */
         @media (max-width: 768px) {
             .hero h1 {
-                font-size: 1.8rem;
+                font-size: 1.5rem;
             }
 
             .hero p {
@@ -210,7 +210,7 @@
     <div class="hero">
         <div class="hero-overlay"></div>
         <div class="hero-content container">
-            <h1 style="color: #ff3333">Introduction to Programming Using Python</h1>
+            <h2 style="color: #ff3333">Introduction to Programming Using Python</h2>
             <p>Unlock your potential in the tech world with our immersive Bootcamp! Dive into the fundamentals of Python
                 programming through hands-on projects and real-world applications. Whether you're a complete beginner or
                 looking to enhance your skills, this Bootcamp is designed to equip you with the knowledge and confidence
