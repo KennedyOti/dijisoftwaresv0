@@ -164,7 +164,7 @@
                                                     Dijisoftwares Ict Hub
                                                 </h4>
                                                 --->
-                                                <h1 class="display-4 text-uppercase text-white mb-4">Python Coding
+                                                <h1 class="display-4 text-uppercase text-white mb-4">Coding
                                                     Bootcamp </h1>
                                                 <p class="mb-5 fs-5">Unlock your potential in the tech world with our immersive Bootcamp! Dive into the fundamentals of Python
                                                     programming through hands-on projects and real-world applications. Whether you're a complete beginner or
