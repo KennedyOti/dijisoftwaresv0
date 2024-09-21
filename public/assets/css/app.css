@@ -10,7 +10,7 @@
     color: var(--primary);
 }
 
-.main-light{
+.main-light {
     background-color: var(--light);
 }
 
@@ -1093,4 +1093,32 @@ header p {
     border-color: #fff;
     color: #fff;
     color: #8b86863c;
+}
+
+/*Updated Table Style*/
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.card-body {
+    padding: 20px;
 }

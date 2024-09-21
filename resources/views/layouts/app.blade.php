@@ -75,9 +75,9 @@
                                     class="fas fa-phone-alt main-color me-2"></i>+25493543659</a>
                             <a href="mailto:example@gmail.com" class="text-muted small me-0"><i
                                     class="fas fa-envelope main-color me-2"></i>dijisoftwares@gmail.com</a>
-                            <a href="#" class="text-muted small me-4"><i
-                                    class="fas fa-laptop-code main-color me-2"></i>Digital Literacy and Career Training
-                                Program</a>
+                            <a href="{{ route('bootcamp.index') }}" class="text-muted small me-4"><i
+                                    class="fas fa-laptop-code main-color me-2"></i>Coding Bootcamp
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4 text-center text-lg-end">

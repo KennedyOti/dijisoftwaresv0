@@ -11,6 +11,8 @@ use App\Http\Controllers\AdminDashboardController;
 use App\Http\Controllers\CourseApplicationController;
 use App\Http\Controllers\ManageCoursesController;
 use App\Http\Controllers\UsersController;
+use App\Http\Controllers\BootcampController;
+use App\Http\Controllers\ManageBootcampController; // Include the new controller
 
 Route::get('/', [HomeController::class, 'index'])->name('/');
 Route::get('/about', [AboutController::class, 'index'])->name('about.index');
@@ -20,7 +22,12 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact.index
 Route::get('/apply', [CourseApplicationController::class, 'index'])->name('apply');
 Route::post('/apply', [CourseApplicationController::class, 'store'])->name('course-applications.store');
 
+// Bootcamp Routes
+Route::get('/bootcamp', [BootcampController::class, 'index'])->name('bootcamp.index');
+Route::post('/bootcamp', [BootcampController::class, 'apply'])->name('bootcamp.apply');
 
+// Bootcamp Applications Management Routes
+Route::get('/portal/bootcampapplications', [ManageBootcampController::class, 'index'])->name('portal.bootcampapplications.index');
 
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
@@ -29,17 +36,5 @@ Route::middleware('auth')->group(function () {
 
     require_once 'profile.php';
 });
-
-
-
-// Route::get('/dashboard', function () {
-//     return view('dashboard');
-// })->middleware(['auth', 'verified'])->name('dashboard');
-
-// Route::middleware('auth')->group(function () {
-//     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-//     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-//     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-// });
 
 require __DIR__ . '/auth.php';
