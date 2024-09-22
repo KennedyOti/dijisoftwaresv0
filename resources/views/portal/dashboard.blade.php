@@ -20,7 +20,7 @@
     <div class="row">
         <!-- Bootcamp Registrations Card -->
         <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="card text-white bg-danger mb-3">
+            <div class="card text-white bg-warning mb-3">
                 <div class="card-header">Bootcamp Registrations</div>
                 <div class="card-body">
                     <h5 class="card-title">{{ $bootcampCount }} Candidates</h5>
