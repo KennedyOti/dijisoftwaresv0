@@ -24,7 +24,6 @@
                 <div class="card-header">Bootcamp Registrations</div>
                 <div class="card-body">
                     <h5 class="card-title">{{ $bootcampCount }} Candidates</h5>
-                    <p class="card-text">Total number of candidates registered for the Python Bootcamp.</p>
                 </div>
             </div>
         </div>
