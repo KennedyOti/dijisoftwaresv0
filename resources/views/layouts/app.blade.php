@@ -151,7 +151,7 @@
                     <!-- Carousel Start -->
                     <div class="header-carousel owl-carousel">
                         <div class="header-carousel-item">
-                            <img src="{{ asset('assets/img/bootcamp3.jpg') }}" class="img-fluid w-100"
+                            <img src="{{ asset('assets/img/training.jpg') }}" class="img-fluid w-100"
                                 alt="Image">
                             <div class="carousel-caption">
                                 <div class="container">
@@ -164,12 +164,18 @@
                                                     Dijisoftwares Ict Hub
                                                 </h4>
                                                 --->
-                                                <h1 class="display-4 text-uppercase text-white mb-4">Coding
-                                                    Bootcamp </h1>
-                                                <p class="mb-5 fs-5">Unlock your potential in the tech world with our immersive Bootcamp! Dive into the fundamentals of Python
-                                                    programming through hands-on projects and real-world applications. Whether you're a complete beginner or
-                                                    looking to enhance your skills, this Bootcamp is designed to equip you with the knowledge and confidence
-                                                    to start your coding journey. Join us and transform your ideas into reality!
+                                                <h1 class="display-4 text-uppercase text-white mb-4">Digital Literacy
+                                                    Training </h1>
+                                                <p class="mb-5 fs-5">
+                                                    Unlock the power of digital skills with our Basic Computer Digital
+                                                    Literacy Course at Dijisoftwares ICT Hub! In just 2 weeks (with
+                                                    daily 2-hour sessions), you’ll gain essential knowledge on computer
+                                                    operations, internet use, file management, and digital communication
+                                                    tools. Learn how to navigate operating systems, create documents,
+                                                    manage files, browse the internet safely, and communicate
+                                                    effectively online. Perfect for beginners looking to confidently use
+                                                    digital technologies for everyday tasks. Enroll today and take the
+                                                    first step toward mastering the digital world!
                                                 </p>
                                                 <div
                                                     class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
@@ -256,7 +262,7 @@
                         </div>
 
                         <div class="header-carousel-item">
-                            <img src="{{ asset('assets/img/coursel20.png') }}" class="img-fluid w-100"
+                            <img src="{{ asset('assets/img/soft.jpg') }}" class="img-fluid w-100"
                                 alt="Image">
                             <div class="carousel-caption">
                                 <div class="container">
